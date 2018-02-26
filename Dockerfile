@@ -1,7 +1,7 @@
 FROM resin/rpi-raspbian:jessie
 MAINTAINER Justin Garrison <justinleegarrison@gmail.com>
 
-ENV INADYN_VERSION=1.99.15
+ENV INADYN_VERSION=2.3.1
 
 # install deps
 RUN apt-get update && \
